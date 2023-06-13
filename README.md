@@ -1,1 +1,1 @@
-# shadow-wizard-money-gang-landing-page
+This project demonstrates proficiency with flexbox and implementing a given design spec.
