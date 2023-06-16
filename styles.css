@@ -17,6 +17,14 @@ a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    text-align: center;
+}
+
+.quote p i {
+    font-size: 24px;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -37,7 +45,7 @@ ul {
     background-color: #1F2937;
 }
 
-.header, .hero, .images, .quote, .footer {
+.header, .hero, .random, .quote, .footer {
     display: flex;
     padding: 0px 200px;
 }
@@ -46,7 +54,46 @@ ul {
     color: #F9FAF8;
 }
 
-.hero, .images, .quote, .footer {
+.hero {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero, .random, .quote, .footer {
     flex-grow: 1;
 }
 
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box {
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 50px 300px;
+}
+
+#btn-up {
+    height: fit-content;
+    border-color: white;
+}
+
+#origin {
+    align-self: flex-end;
+}
