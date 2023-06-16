@@ -7,3 +7,46 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header, .hero {
+    background-color: #1F2937;
+}
+
+.header, .hero, .images, .quote, .footer {
+    display: flex;
+    padding: 0px 200px;
+}
+
+.header, .hero, .footer {
+    color: #F9FAF8;
+}
+
+.hero, .images, .quote, .footer {
+    flex-grow: 1;
+}
+
