@@ -1,1 +1,1 @@
-This project demonstrates basic proficiency with flexbox.
+This project demonstrates proficiency with flexbox.
