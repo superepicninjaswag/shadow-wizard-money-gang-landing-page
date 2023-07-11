@@ -21,8 +21,10 @@ h2 {
     text-align: center;
 }
 
-.header, .hero, .party, .quote, .call-to-action, .footer {
+.header, .divider, .hero, .party, .quote, .call-to-action, .footer {
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header {
@@ -58,7 +60,7 @@ h2 {
 
 .hero {
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 5vh;
     padding-bottom: 70px;
     margin-bottom: auto;
 }
@@ -95,14 +97,13 @@ h2 {
     flex-direction: row;
     justify-content: center;
 
-    padding: 50px 0px;
+    padding: 50px 50px;
     font-weight: lighter;
 }
 
 .quote-jar {
     display: flex;
     flex-basis: 400px;
-
     flex-direction: column;
 }
 
